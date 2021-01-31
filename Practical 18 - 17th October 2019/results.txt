@@ -1,0 +1,6 @@
+The number of times < appears in the file is 1890
+The number of times > appears in the file is 1891
+The number of times <br> appears in the file is 2
+The number of times e appears in the file is 9121
+The number of times <!-- appears in the file is 1
+The number of times --> appears in the file is 1
