@@ -1,0 +1,98 @@
+10!:
+Iteration:	Elapsed time =  0.015621185302734375
+Recursion:	Elapsed time =  0.015314579010009766
+
+20!:
+Iteration:	Elapsed time =  0.010118246078491211
+Recursion:	Elapsed time =  0.015224456787109375
+
+50!:
+Iteration:	Elapsed time =  0.01528310775756836
+Recursion:	Elapsed time =  0.015621185302734375
+
+100!:
+Iteration:	Elapsed time =  0.01009058952331543
+Recursion:	Elapsed time =  0.015571832656860352
+
+200!:
+Iteration:	Elapsed time =  0.015594720840454102
+Recursion:	Elapsed time =  0.015613555908203125
+
+500!:
+Iteration:	Elapsed time =  0.015308856964111328
+Recursion:	Elapsed time =  0.015619516372680664
+
+1000!:
+Iteration:	Elapsed time =  0.04653310775756836
+Recursion:	RecursionError: maximum recursion depth exceeded in comparison
+
+750!:
+Iteration:	Elapsed time =  0.022140979766845703	
+Recursion:	Elapsed time = 	0.03123784065246582
+
+800!:
+Iteration:	Elapsed time =  0.02213287353515625
+Recursion:	Elapsed time = 	0.022130727767944336
+
+850!:
+Iteration:	Elapsed time =  0.031243085861206055
+Recursion:	Elapsed time =  0.031237125396728516
+
+900!:
+Iteration:	Elapsed time =  0.031221866607666016
+Recursion:	Elapsed time =  0.0312807559967041
+
+950!:
+Iteration:	Elapsed time =  0.030855655670166016	
+Recursion:	Elapsed time = 	0.03124547004699707
+
+975!:
+Iteration:	Elapsed time =  0.03126335144042969	
+Recursion:	Elapsed time =  0.03084588050842285
+
+985!:
+Iteration:	Elapsed time =  0.03124213218688965
+Recursion:	Elapsed time =  0.030884742736816406
+
+990!:
+Iteration:	Elapsed time =  0.031238555908203125
+Recursion:	Elapsed time =  0.03124380111694336
+
+995!:
+Iteration:	Elapsed time =  0.03124213218688965	
+Recursion:	RecursionError: maximum recursion depth exceeded in comparison
+
+991!:
+Iteration:	Elapsed time =  0.03107595443725586	
+Recursion:	Elapsed time =  0.031068801879882812
+
+992!:
+Iteration:	Elapsed time =  0.03122854232788086
+Recursion:	Elapsed time =  0.03124070167541504
+
+993!:
+Iteration:	Elapsed time =  0.031275033950805664
+Recursion:	RecursionError: maximum recursion depth exceeded in comparison
+
+2000!:
+Iteration:	Elapsed time =  0.01564788818359375 (Squeezed Text)
+
+5000!:
+Iteration:	Elapsed time =  0.15622353553771973 (Squeezed Text)
+
+10000!:
+Iteration:	Elapsed time =  0.3133974075317383 (Squeezed Text)
+
+50000!:		
+Iteration:	Elapsed time =  2.8745405673980713 (Squeezed Text)
+
+100000!:
+Iteration:	Elapsed time =  8.836748838424683 (Squeezed Text)			
+
+500000!:
+Iteration:	Elapsed time =  225.9805247783661  (Squeezed Text)
+
+
+
+
+

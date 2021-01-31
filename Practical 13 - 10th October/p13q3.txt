@@ -1,0 +1,5 @@
+(a) The program prints to screen what the function returns - in this case "None" as the function has no return. However it does so after carrying out the rest of the commands in the function.
+
+(b) The program does nothing.
+
+(c) It appears to print the memory address in hexadecimel of the print_max function. In this case: <function print_max at 0x0000025D02B20558>

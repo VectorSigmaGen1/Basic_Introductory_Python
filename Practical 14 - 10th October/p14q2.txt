@@ -1,0 +1,44 @@
+1000!:
+Iteration:	Elapsed time =  0.04653310775756836
+Recursion:	RecursionError: maximum recursion depth exceeded in comparison
+
+995!:
+Iteration:	Elapsed time =  0.03124213218688965	
+Recursion:	RecursionError: maximum recursion depth exceeded in comparison
+
+993!:
+Iteration:	Elapsed time =  0.031275033950805664
+Recursion:	RecursionError: maximum recursion depth exceeded in comparison
+
+2000!:
+Iteration:	Elapsed time =  0.01564788818359375 (Squeezed Text)
+
+5000!:
+Iteration:	Elapsed time =  0.15622353553771973 (Squeezed Text)
+
+10000!:
+Iteration:	Elapsed time =  0.3133974075317383 (Squeezed Text)
+
+50000!:		
+Iteration:	Elapsed time =  2.8745405673980713 (Squeezed Text)
+
+100000!:
+Iteration:	Elapsed time =  8.836748838424683 (Squeezed Text)			
+
+500000!:
+Iteration:	Elapsed time =  225.9805247783661  (Squeezed Text)
+
+In general the time taken for the function that calculates by iteration(f1) is slightly less than the time taken by the function that calculates by recursion (f2)
+As there was occasional variability in these times, I think they are more reflective of what other processes the CPU is running concurrently.
+For significantly higher factorials, the time taken increased significantly. 
+I would surmise that in these cases the complexity of the operation itself becomes the rate limiter rather than concurrent processes.
+
+Trying to apply f2 to calculate the factorial of 993 and higher resulted in a RecursionError return.
+This happens because the recurion depth of the operation has exceeded the recursion limit set for the system.
+A check by importing the sys module and using sys.getrecursionlimit() returns 1,000, so I assume there is a buffer which returns a recursion error when it hears the limit.
+The limit prevents a stack overflow from occurring.
+
+
+
+
+

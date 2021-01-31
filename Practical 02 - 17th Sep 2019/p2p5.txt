@@ -1,0 +1,5 @@
+(a) It just prints the string 'Segment is:' and nothing else - the slice is null
+(b) It just prints the string 'Segment is:' and nothing else - the slice is null
+(c) It prints the first number of letters equal to y - i.e. if y=5, it will print 'Segement is: herd '
+(d) It prints the string excluding the first number of letters equal to x - i.e. if x=5, it will print 'Segement is: of elephants'
+(e) It prints the full string - i.e. 'Segment is: herd of elephants'
